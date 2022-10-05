@@ -1,0 +1,49 @@
+.master{
+    width: 600px;
+    min-height: 350px;
+    position: relative;
+    left: 28%;
+}
+.circle{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: #eb001b;
+    
+}
+.circle::before{
+    content: "";
+    border-radius: 50%;
+    display: block;
+    height: 300px;
+    width: 300px;
+    background-color: #ff9900;
+    position: absolute;
+    left: 195px;
+    opacity: 0.8;
+}
+.circle::after{
+    content: "TM";
+    color: #ff9900;
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 218px;
+    left: 501px;
+
+}
+.r{
+   position: absolute;
+   left: 405px;
+   top: 350px;
+}
+.r::after{
+    content: "MASTERCARD";
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    position: absolute;
+    right: 19px;
+    bottom: 0px;
+}
